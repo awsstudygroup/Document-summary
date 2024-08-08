@@ -1,42 +1,48 @@
-# Overview Study-Assistant
-This is a simple demo of Amazon Bedrock and Anthropic Claude 3 Sonnet model with langchain and streamlit. For more detail please reference the following link: <br />
-- <a href="https://aws.amazon.com/bedrock/" target="_blank">https://aws.amazon.com/bedrock/ </a>
-- <a href="https://www.anthropic.com/news/claude-3-family" target="_blank">Claude 3 </a>
-# To view demo and sample data:
-    Access folder demo for demo video
-    Access folder samples for sample videos
+# AWS Document Summary
 
-# To Setup
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python <a><br />
-Setup <a href='https://docs.python-guide.org/starting/install3/linux/' target='_blank'> Python Env<br />
-Setup <a href='https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html' target='_blank'> AWS CLI<br />
-> git clone https://github.com/nguyendinhthi0705/Study-Assistant.git <br />
-> cd Study-Assistant <br />
-> pip3 install -r requirements.txt <br />
-> streamlit run Home.py --server.port 8080 <br />
+## Overview
 
-# Architecture
+AWS Document Summary is a simple demo showcasing the integration of Amazon Bedrock and the Anthropic Claude 3 Sonnet model with LangChain and Streamlit. For more details, please reference the following links:
+- [Amazon Bedrock](https://aws.amazon.com/bedrock/)
+- [Claude 3](https://www.anthropic.com/news/claude-3-family)
+
+## Viewing Demo and Sample Data
+
+- Access the `demo` folder for the demo video.
+- Access the `samples` folder for sample videos.
+
+## Setup Instructions
+
+1. **Install Python**: Follow the [Python installation guide](https://docs.python-guide.org/starting/install3/linux/).
+2. **Set Up Python Environment**: Refer to the [Python environment setup guide](https://docs.python-guide.org/starting/install3/linux/).
+3. **Set Up AWS CLI**: Follow the [AWS CLI quickstart guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html).
+
+### Steps to Set Up the Project
+
+```bash
+git clone https://github.com/awsstudygroup/Document-summary.git
+cd Document-summary
+pip3 install -r requirements.txt
+streamlit run Home.py --server.port 8080
+```
+
+## Architecture
+
 ![Architecture](./Architecture.png)
 
-# Learn more about prompt and Claude 3
-<a href="https://docs.anthropic.com/claude/docs/introduction-to-prompt-design" target="_blank">Introduction to prompt design </a>
-<a href="https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf">Model Card</a>
+## Learning More About Prompt and Claude 3
 
-# Demo
+- [Introduction to Prompt Design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design)
+- [Model Card](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf)
 
-## A Simple Chat 
-[![Chat](http://img.youtube.com/vi/PdX7i0A4a-M/0.jpg)](https://www.youtube.com/watch?v=PdX7i0A4a-M)]
+## Contributing
 
-## Questions and Anwsers
-[![Questions and Anwsers](http://img.youtube.com/vi/ciJfAhyRjTI/0.jpg)](https://www.youtube.com/watch?v=ciJfAhyRjTI)]
+We welcome contributions! Please submit pull requests to the repository and ensure all code is well-documented and tested.
 
-## Summary a Lecture
-[![Summary](http://img.youtube.com/vi/5JpeWmbHMi0/0.jpg)](https://www.youtube.com/watch?v=5JpeWmbHMi0)]
+## License
 
-## Create Multi Choice Questions
-[![Create Multi Choice Questions](http://img.youtube.com/vi/AE9gj19a9t0/0.jpg)](https://www.youtube.com/watch?v=AE9gj19a9t0)]
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Suggest a Better Writing
-[![Suggest Better Writing](http://img.youtube.com/vi/7xBR5rtcp30/0.jpg)](https://www.youtube.com/watch?v=7xBR5rtcp30)]
+## Contact
 
-
+For any questions or feedback, please contact [your email or contact information].
