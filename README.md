@@ -2,7 +2,9 @@
 
 ## Overview
 
-AWS Document Summary is a simple demo that showcases the integration of Amazon Bedrock and the Anthropic Claude 3 Sonnet model with LangChain and Streamlit. This demo illustrates how to summarize documents efficiently using cutting-edge AI technologies. For further information, you can explore the following links:
+DocuMentor is a straightforward yet powerful demo designed to showcase the integration of Amazon Bedrock and the Anthropic Claude 3 Sonnet model. By leveraging LangChain and Streamlit, this tool provides an efficient way to summarize lengthy documents, making it ideal for educational purposes, research, and business applications. The project illustrates how state-of-the-art AI models can be utilized to distill essential information from documents, presenting it in a user-friendly interface built with Streamlit.
+
+This demo is an excellent starting point for those interested in exploring the capabilities of generative AI models within the AWS ecosystem, offering insights into prompt design, model integration, and real-world applications of AI in document processing. For further information, you can explore the following links:
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/)
 - [Claude 3](https://www.anthropic.com/news/claude-3-family)
 
