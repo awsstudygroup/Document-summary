@@ -1,4 +1,4 @@
-# AWS Document Summary
+# DocuMentor
 
 ## Overview
 
@@ -40,11 +40,11 @@ AWS Document Summary is a simple demo that showcases the integration of Amazon B
     streamlit run Home.py --server.port 8080
     ```
 
-    This command will launch the Streamlit app on port 8080. Open your web browser and navigate to `http://localhost:8080` to interact with the AWS Document Summary tool.
+    This command will launch the Streamlit app on port 8080. Open your web browser and navigate to `http://localhost:8080` to interact with theDocuMentor tool.
 
 ## Architecture
 
-The architecture of the AWS Document Summary project integrates multiple components to achieve seamless document summarization. Below is an illustrative diagram of the system architecture:
+The architecture of theDocuMentor project integrates multiple components to achieve seamless document summarization. Below is an illustrative diagram of the system architecture:
 
 ![Architecture](./Architecture.png)
 
@@ -67,4 +67,4 @@ For any questions, issues, or feedback, feel free to reach out at [your email or
 
 ---
 
-This guide provides a comprehensive overview and step-by-step instructions for setting up and contributing to the AWS Document Summary project.
+This guide provides a comprehensive overview and step-by-step instructions for setting up and contributing to theDocuMentor project.
